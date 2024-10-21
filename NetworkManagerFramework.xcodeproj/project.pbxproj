@@ -10,6 +10,11 @@
 		F30E302F2CC6D5FD00DF91DE /* NetworkManagerFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F30E302E2CC6D5FD00DF91DE /* NetworkManagerFramework.docc */; };
 		F30E30302CC6D5FD00DF91DE /* NetworkManagerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F30E302D2CC6D5FD00DF91DE /* NetworkManagerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F30E30372CC6D74F00DF91DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F30E30362CC6D74F00DF91DE /* .gitignore */; };
+		F30E303C2CC6D82D00DF91DE /* HTTPRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E303B2CC6D82D00DF91DE /* HTTPRequestMethod.swift */; };
+		F30E303D2CC6D82D00DF91DE /* APIResponseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E30392CC6D82D00DF91DE /* APIResponseValidator.swift */; };
+		F30E303E2CC6D82D00DF91DE /* APIRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E303A2CC6D82D00DF91DE /* APIRequestError.swift */; };
+		F30E303F2CC6D82D00DF91DE /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E30382CC6D82D00DF91DE /* APIRequest.swift */; };
+		F30E30412CC6D85000DF91DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E30402CC6D85000DF91DE /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +22,11 @@
 		F30E302D2CC6D5FD00DF91DE /* NetworkManagerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManagerFramework.h; sourceTree = "<group>"; };
 		F30E302E2CC6D5FD00DF91DE /* NetworkManagerFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetworkManagerFramework.docc; sourceTree = "<group>"; };
 		F30E30362CC6D74F00DF91DE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F30E30382CC6D82D00DF91DE /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		F30E30392CC6D82D00DF91DE /* APIResponseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseValidator.swift; sourceTree = "<group>"; };
+		F30E303A2CC6D82D00DF91DE /* APIRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestError.swift; sourceTree = "<group>"; };
+		F30E303B2CC6D82D00DF91DE /* HTTPRequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestMethod.swift; sourceTree = "<group>"; };
+		F30E30402CC6D85000DF91DE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,11 @@
 		F30E302C2CC6D5FD00DF91DE /* NetworkManagerFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F30E303B2CC6D82D00DF91DE /* HTTPRequestMethod.swift */,
+				F30E30382CC6D82D00DF91DE /* APIRequest.swift */,
+				F30E303A2CC6D82D00DF91DE /* APIRequestError.swift */,
+				F30E30392CC6D82D00DF91DE /* APIResponseValidator.swift */,
+				F30E30402CC6D85000DF91DE /* NetworkManager.swift */,
 				F30E302D2CC6D5FD00DF91DE /* NetworkManagerFramework.h */,
 				F30E302E2CC6D5FD00DF91DE /* NetworkManagerFramework.docc */,
 			);
@@ -136,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30E30412CC6D85000DF91DE /* NetworkManager.swift in Sources */,
+				F30E303D2CC6D82D00DF91DE /* APIResponseValidator.swift in Sources */,
+				F30E303E2CC6D82D00DF91DE /* APIRequestError.swift in Sources */,
+				F30E303C2CC6D82D00DF91DE /* HTTPRequestMethod.swift in Sources */,
+				F30E303F2CC6D82D00DF91DE /* APIRequest.swift in Sources */,
 				F30E302F2CC6D5FD00DF91DE /* NetworkManagerFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
