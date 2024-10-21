@@ -1,0 +1,76 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcscmblueprint
+*.xcworkspace/
+*.xcuserdata/
+*.xcdebugger/
+*.xccheckout
+
+# Swift Package Manager
+/.build/
+/Package.resolved
+
+#Secrets configuration file
+Secrets.xcconfig
+
+# Build artifacts
+DerivedData/
+build/
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Archives
+*.xcarchive
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Unit test and coverage
+*.gcno
+*.gcda
+*.profdata
+
+# IDE preferences and settings
+.idea/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Other files
+*.mode1v3
+*.pbxuser
+*.perspectivev3
+*.xcuserdatad
+
+# SwiftPM
+.build/
+Package.resolved
+
+# Git Extensions
+/.git/
+
+# Markdown files
+*.md
+
+
