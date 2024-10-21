@@ -12,7 +12,7 @@ public class NetworkManager {
     public static let shared = NetworkManager()
     private let UrlSession = URLSession.shared
     
-    init() {
+    private init() {
         //
     }
     
