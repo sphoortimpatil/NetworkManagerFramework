@@ -26,7 +26,7 @@ extension APIRequest {
         if let parameters = parameters {
             if httpMethod == .get {
                 var components = URLComponents(url: url, resolvingAgainstBaseURL: false)
-                components?.queryItems = parameters.map{ URLQueryItem(name: $0.key, value: "\($0.value)")}
+                components?.queryItems = parameters.map{ URLQueryItem(name: $0.key, value: "\($0.value)") }
                 urlRequest.url = components?.url
             } else {
                 do {
